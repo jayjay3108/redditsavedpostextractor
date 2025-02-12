@@ -19,6 +19,7 @@ Extract Posts from your Saved Posts and saves them as files. It automatically zi
 
 1. Clone the repository:
     git clone https://github.com/yourusername/redditsavedpostextractor.git
+   
     cd redditsavedpostextractor
 
 2. Install the required libraries:
