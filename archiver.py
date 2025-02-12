@@ -58,8 +58,8 @@ def find_available_port():
 def setup_reddit(port):
     """Setup Reddit API connection using OAuth"""
     return praw.Reddit(
-        client_id="N2O9_H431xWn6cVIGDOn6g",
-        client_secret="iwJzathnBgk_1eVjIcJkhy3SHPiSNA",
+        client_id="your_client_id_here",
+        client_secret="your_client_secret_here",
         redirect_uri=f"http://localhost:{port}",
         user_agent="SavedPostsExtractor/1.0"
     )
